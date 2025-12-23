@@ -42,7 +42,7 @@ const ResearchPage: React.FC = () => {
               className="text-6xl lg:text-9xl font-black text-white leading-[0.85] tracking-tighter uppercase mb-12 drop-shadow-2xl"
             >
               Linguistic <br /> <span className="text-white/20">Foundations.</span>
-            </h1 >
+            </motion.h1>
 
             <motion.p 
               initial={{ opacity: 0 }}

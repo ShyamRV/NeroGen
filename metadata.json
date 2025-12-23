@@ -1,0 +1,7 @@
+{
+  "name": "Bharat AI Infrastructure",
+  "description": "Official announcement of India's first open-source-native deep-tech company focused on AI, Robotics, and Research Infrastructure. Building the foundation for India's digital future.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}

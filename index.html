@@ -4,11 +4,33 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Primary Meta Tags -->
     <title>Bharat AI | Sovereign Research Infrastructure</title>
+    <meta name="title" content="Bharat AI | Sovereign Research Infrastructure" />
+    <meta name="description" content="Architecting the foundation for India's digital future through open-source deep-tech, robotics, and sovereign AI infrastructure." />
+    <meta name="keywords" content="Bharat AI, Sovereign AI, Indian LLM, Robotics India, Deep Tech Infrastructure, Open Source Datasets" />
+    <meta name="author" content="Bharat AI Foundation" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://bharatai.foundation/" />
+    <meta property="og:title" content="Bharat AI | Sovereign Research Infrastructure" />
+    <meta property="og:description" content="Architecting the foundation for India's digital future through open-source deep-tech and sovereign AI." />
+    <meta property="og:image" content="https://lh3.googleusercontent.com/d/1op7lRjntBOvoJawbXzGum5ZYOAxVuuTX" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://bharatai.foundation/" />
+    <meta property="twitter:title" content="Bharat AI | Sovereign Research Infrastructure" />
+    <meta property="twitter:description" content="Architecting the foundation for India's digital future through open-source deep-tech and sovereign AI." />
+    <meta property="twitter:image" content="https://lh3.googleusercontent.com/d/1op7lRjntBOvoJawbXzGum5ZYOAxVuuTX" />
+
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;700;800&display=swap" rel="stylesheet">
+    
     <script>
       tailwind.config = {
         theme: {
@@ -71,6 +93,15 @@
       ::selection {
         background-color: #3b82f6;
         color: white;
+      }
+
+      /* Custom animations for deployment readiness */
+      @keyframes float {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(-10px); }
+      }
+      .animate-float {
+        animation: float 6s ease-in-out infinite;
       }
     </style>
   <script type="importmap">

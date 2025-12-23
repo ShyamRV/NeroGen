@@ -1,0 +1,11 @@
+
+{
+  "name": "Bharat AI Infrastructure",
+  "short_name": "Bharat AI",
+  "description": "Architecting the foundation for India's digital future through open-source deep-tech and sovereign AI.",
+  "theme_color": "#020204",
+  "background_color": "#020204",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}

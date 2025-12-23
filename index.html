@@ -1,0 +1,141 @@
+
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Primary Meta Tags -->
+    <title>Bharat AI | Sovereign Research Infrastructure</title>
+    <meta name="title" content="Bharat AI | Sovereign Research Infrastructure" />
+    <meta name="description" content="Architecting the foundation for India's digital future through open-source deep-tech, robotics, and sovereign AI infrastructure." />
+    <meta name="keywords" content="Bharat AI, Sovereign AI, Indian LLM, Robotics India, Deep Tech Infrastructure, Open Source Datasets" />
+    <meta name="author" content="Bharat AI Foundation" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://bharatai.foundation/" />
+    <meta property="og:title" content="Bharat AI | Sovereign Research Infrastructure" />
+    <meta property="og:description" content="Architecting the foundation for India's digital future through open-source deep-tech and sovereign AI." />
+    <meta property="og:image" content="https://lh3.googleusercontent.com/d/1op7lRjntBOvoJawbXzGum5ZYOAxVuuTX" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://bharatai.foundation/" />
+    <meta property="twitter:title" content="Bharat AI | Sovereign Research Infrastructure" />
+    <meta property="twitter:description" content="Architecting the foundation for India's digital future through open-source deep-tech and sovereign AI." />
+    <meta property="twitter:image" content="https://lh3.googleusercontent.com/d/1op7lRjntBOvoJawbXzGum5ZYOAxVuuTX" />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;700;800&display=swap" rel="stylesheet">
+    
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'bg-primary': '#050507',
+              'bg-secondary': '#0a0a0c',
+              'bg-tertiary': '#0f0f12',
+              'accent-cyan': '#00e5ff',
+              'accent-violet': '#7c3aed',
+              'accent-blue': '#2563eb',
+              'accent-emerald': '#059669',
+              'text-primary': '#f8fafc',
+              'text-secondary': '#94a3b8',
+              'text-tertiary': '#475569',
+              'border-subtle': 'rgba(255, 255, 255, 0.08)',
+            },
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+              mono: ['JetBrains Mono', 'monospace'],
+            },
+            letterSpacing: {
+              'tightest': '-.075em',
+              'tighter': '-.05em',
+              'widest': '.25em',
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      body {
+        background-color: #050507;
+        color: #f8fafc;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        overflow-x: hidden;
+      }
+      .glass {
+        backdrop-filter: blur(24px);
+        background: rgba(10, 10, 12, 0.6);
+        border: 1px solid rgba(255, 255, 255, 0.08);
+      }
+      .glass-card {
+        background: rgba(255, 255, 255, 0.02);
+        border: 1px solid rgba(255, 255, 255, 0.05);
+        transition: all 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+      }
+      .glass-card:hover {
+        background: rgba(255, 255, 255, 0.04);
+        border-color: rgba(255, 255, 255, 0.15);
+        transform: translateY(-4px);
+      }
+      .tech-grid {
+        background-image: 
+          linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+          linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+        background-size: 60px 60px;
+        mask-image: radial-gradient(circle at center, black, transparent 90%);
+      }
+      .no-scrollbar::-webkit-scrollbar { display: none; }
+      .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+      
+      h1, h2, h3 {
+        letter-spacing: -0.04em;
+        line-height: 1.1;
+      }
+      
+      ::selection {
+        background-color: #2563eb;
+        color: white;
+      }
+
+      @keyframes float {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(-8px); }
+      }
+      .animate-float {
+        animation: float 8s ease-in-out infinite;
+      }
+
+      /* Premium Soft Glows */
+      .glow-blue { box-shadow: 0 0 50px -10px rgba(37, 99, 235, 0.2); }
+      .glow-emerald { box-shadow: 0 0 50px -10px rgba(5, 150, 105, 0.2); }
+      
+      /* Subtle Image treatment */
+      .cinematic-img {
+        mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "lucide-react": "https://esm.sh/lucide-react@^0.562.0",
+    "framer-motion": "https://esm.sh/framer-motion@^12.23.26"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
